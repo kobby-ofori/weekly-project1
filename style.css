@@ -1,0 +1,162 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 940px; 
+    padding: 0 10px;
+  }
+  
+  .header {
+    background: url(https://www.open.edu.au/-/media/images/study-online/courses/architecture-1.jpg?h=364&iar=0&w=600&rev=5a4c9a316dd14e0ba408fce2fbc012a6&sc_lang=en&hash=7DFE50BA157EACD2F06B7CA6ADD783C3) no-repeat center center; 
+    background-size: cover;
+    height: 800px;
+    text-align: center; 
+  }
+  
+  .header .container {
+    position: relative;
+    top: 200px;
+  }
+  
+  .header h1 {
+    color: #fff;
+    line-height: 100px; 
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase; 
+  }
+  
+  @media (min-width:850px) {
+    .header h1 {
+      font-size: 120px;
+    }
+  }
+  
+  .header p {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-transform: uppercase; 
+  }
+  
+  .btn {
+    color: #fff;
+    background: #000;
+    padding: 10px 40px;
+    text-decoration: none; 
+    transition: background .5s; 
+  }
+
+  /*css code for the navigation links*/
+  .nav { 
+    background: #000;
+    height: 80px; 
+    width: 100%;
+  }
+  
+  /*css code for the navigation links*/
+  .nav ul {
+    height: 80px;
+    list-style: none;
+    margin: 0 auto; 
+    padding: 0;
+  }
+  
+  .nav ul li {
+    color: #fff;
+    display: inline-block; 
+    height: 80px;
+    line-height: 80px; 
+    list-style: none;
+    padding: 0 10px;
+    transition: background .5s; 
+  }
+  
+  /*behavior and color of cursor & navigation links during hovering*/
+  .btn:hover, .nav ul li:hover {
+    background: #117bff;
+    cursor: pointer; 
+    transition: background .5s;  
+  }
+  
+  .main .container {
+    margin: 80px auto;
+  }
+  
+  .main img {
+    float: left;
+    margin: 50px 80px 50px 0;
+  }
+  
+  /*css code for jumbotron image, container, h2, paragraph and button*/
+  .jumbotron {
+    background: url(https://www.gouni.edu.ng/wp-content/uploads/2018/08/Architecture-1.jpg) center center;
+    background-size: cover;
+    height: 600px; 
+  }
+  
+  .jumbotron .container {
+    position: relative;
+    top: 220px;
+  }
+  
+  .jumbotron h2 {
+    color: #fff;
+    text-align: right; 
+  }
+  
+  .jumbotron p {
+    color: black; 
+    text-align: right;
+    font-weight: bold; 
+  }
+  
+  .jumbotron .btn {
+    margin: 10px 0 0;
+    float: right; 
+  }
+  
+  /*css code for footer*/
+  .footer { 
+    background: #000;
+    height: 80px; 
+    padding-bottom: 50px;
+  }
+  
+  .footer p { 
+    color: #fff;
+    font-size: 14px;  
+    height: 80px; 
+    line-height: 80px;
+    margin: 0;  
+  }
+  
+  /*Used the media rule to apply different styles for different media types/devices.*/
+  /*css code to change header h1 font-size to 50px & line-height to 64px when the browser is 500px wide*/
+  @media (max-width: 500px) {
+    .header h1 {
+      font-size: 50px;
+      line-height: 64px;
+    }
+  
+    /*css code to change the padding of main, jumbotron to ....*/
+    .main, .jumbotron {
+      padding: 0 30px;
+    }
+  
+    /*css code to change the width of main image to...*/
+    .main img {
+      width: 100%;
+    }
+  }
